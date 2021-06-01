@@ -9,7 +9,6 @@ spec:
   selector:
     matchLabels:
       app: guestbook
-  replicas: 3
   template:
     metadata:
       labels:
