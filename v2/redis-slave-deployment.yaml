@@ -6,7 +6,6 @@ metadata:
     app: redis
     role: slave
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: redis
